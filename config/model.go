@@ -24,6 +24,8 @@ var ModelMap = map[string]string{
 	"claude-4-opus-think":     "claude40opusthinking",
 	"claude-4.1-opus":         "claude41opus",
 	"claude-4.1-opus-think":   "claude41opusthinking",
+	"claude-4.5-opus":         "claude45opus",
+	"claude-4.5-opus-think":   "claude45opusthinking",
 	"alpha":                   "pplx_alpha",
 	"beta":                    "pplx_beta",
 	"study":                   "pplx_study",
@@ -85,6 +87,7 @@ func buildResponseModels() {
 		})
 	}
 }
+
 
 
 
