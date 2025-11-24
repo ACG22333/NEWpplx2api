@@ -30,10 +30,6 @@ var ModelMap = map[string]string{
 	"beta":                    "pplx_beta",
 	"study":                   "pplx_study",
 	"r1":                      "r1",
-53
-}
-53
-}
 }
 var MaxModelMap = map[string]string{
 	"o3-pro":                "o3pro",
@@ -91,5 +87,6 @@ func buildResponseModels() {
 		})
 	}
 }
+
 
 
